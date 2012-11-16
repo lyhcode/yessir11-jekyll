@@ -9,11 +9,11 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 創毅資訊股份有限公司
+title : 創毅資訊
 tagline: AgriCloud Co., Ltd.
 author :
-  name : Name Lastname
-  email : blah@email.test
+  name : 創毅資訊股份有限公司
+  email : ACloud@yuntech.edu.tw
   github : agricloud
   twitter : agricloud
   feedburner : feedname

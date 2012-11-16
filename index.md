@@ -1,46 +1,19 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 雲端農場資訊服務
+tagline: 藉 e 化與企業化促成農業轉型，達到農民、消費者及運銷商三贏！
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## 使命
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+1. 提升農民收入，協助農民維持生計。
+2. 農場管理電子E化，真實反映農產品原物料使用、栽種過程、農藥檢驗結果。
+3. 推廣農產品生產履歷，提供民眾品質優良且安全有保障的農產品。
+4. 培訓農業管理人才，提供社會創新就業機會。
+5. 擴展工業工程與管理系在農業的藍海應用領域，培養訓練學生解決相關問題的能力。
 
-## Update Author Attributes
+## 簡介
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
+農產品價格不振與行銷困難是弱勢農民長期面對的問題，雲端農業研發服務中心嘗試將製造業e化管理的經驗導入農業，重建農產品高品質的形象與可徵信的履歷，並以雲端農場網站建立消費者與農場的互動，讓農場轉變為消費者個人的私房農場，使消費者容易找到可信賴的農產品，農民也便於行銷。雲端農業服務中心以柳丁園為起點導入e化管理，此次將介紹推廣安全有履歷的雲端柳丁，希望消費者與企業能訂購分享。中心的目標在將管理系統與技術移轉給農民，使能轉型企業化與e化經營，改善獲利並提供消者安全優質的農產品。
 
