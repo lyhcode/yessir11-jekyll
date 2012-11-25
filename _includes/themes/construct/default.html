@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+<meta name="author" content="{{ site.author.name }}">
+<meta name="keywords" content="雅舍,禾承裝潢,系統櫥櫃,系統傢俱,歐化廚具,廚具,系統,室內設計,室內,窗簾,耐磨地板,裝潢,斗六,雲林"/>
+<meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link href="{{ ASSET_PATH }}/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+<link href="{{ ASSET_PATH }}/css/style.css" type="text/css" rel="stylesheet"/>
+<link href="{{ ASSET_PATH }}/css/prettyPhoto.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.quicksand.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/superfish.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/hoverIntent.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.hoverdir.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jflickrfeed.min.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.tweet.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/smoothscroll.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/main.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/ajax-mail.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/accordion.settings.js"></script>
+
+<!-- Le fav and touch icons -->
+<link rel="icon" href="{{ ASSET_PATH }}/images/favicon.png" type="image/png">
+<link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.png" type="image/png" />
+<!-- Update these with your own images
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+-->
+</head>
+<body>
+<section class="message-top">
+    <!--<div>
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <div class="notification container">
+            <strong>Hey!</strong> This may be your important marketing notification ;-).
+        </div>
+    </div>-->
+</section>
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="span3 logo">
+                <a href="{{ BASE_PATH }}/"><img src="{{ ASSET_PATH }}/images/logo.png" alt="logo"/></a>
+            </div>
+            <nav id="menu" class="pull-right">
+                <ul id="main-nav">
+                    {% assign pages_list = site.pages %}
+                    {% assign group = 'navigation' %}
+                    {% include JB/pages_list %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="container">
+    <div id="mainslider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="{{ ASSET_PATH }}/example/slider3.jpg" alt="photo" />
+                <h3><span>Office design and corporate style</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit.Aliquam varius sapien porttitor</a></h3>
+            </li>
+            <li>
+                <img src="{{ ASSET_PATH }}/example/slider2.jpg" alt="photo" />
+                <h3><span>Private appartment interior</span><a href="#">Great design and the best ideas Dolor sit amet, consectetur adipiscing elit. Aliquam varius sapien porttitor dui lobortis</a></h3>
+            </li>
+            <li>
+                <img src="{{ ASSET_PATH }}/example/slider1.jpg" alt="photo" />
+                <h3><span>Shops and boutiques design</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit</a></h3>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="container">
+<div class="container">
+{{ content }}
+</div>
+</section>
+
+<!--footer-->
+<footer id="footer">
+    <div class="container">
+    <div class="row">
+        <div class="span4">
+            <h3>雅舍系統櫥櫃</h3>
+            <p>為您規劃一個舒適的居家環境。 有任何空間規劃的需求，歡迎與我們聯絡！</p>
+        </div>
+        <div class="span4">
+            <h3>粉絲專頁</h3>
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2F%25E9%259B%2585%25E8%2588%258D%25E7%25B3%25BB%25E7%25B5%25B1%25E6%25AB%25A5%25E6%25AB%2583%2F200012770019196&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;appId=102994276528232" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+        </div>
+        <div class="span4">
+            <h3>聯絡方式</h3>
+            <address>
+                雅舍系統櫥櫃（禾承裝潢）<br/>
+                聯絡人： 程文藝<br/>
+                門市電話： (05)5376668<br/>
+                行動電話： 0932-517934<br/>
+                電子郵件： lux48a@gmail.com<br/> 
+                網址： www.yessir11.com.tw<br/>
+            </address>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!--footer menu-->
+<section id="footer-menu">
+    <div class="container">
+        <div class="row">
+            <div class="span8 hidden-phone">
+                <ul>
+                    <li><a href="{{ BASE_PATH }}/">首頁</a></li>
+                    <li><a href="#">關於雅舍</a></li>
+                    <li><a href="#">服務項目</a></li>
+                    <li><a href="#">作品集</a></li>
+                    <li><a href="#">部落格</a></li>
+                    <li><a href="#">聯絡方式</a></li>
+                </ul>
+            </div>
+            <p class="span4"><span class="pull-right">Copyright &copy; 2012 雅舍系統櫥櫃版權所有</span></p>
+        </div>
+    </div>
+</section>
+
+{% include JB/analytics %}
+</body>
+</html>
