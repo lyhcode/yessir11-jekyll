@@ -74,24 +74,9 @@
     </div>
 </header>
 
-<section class="container">
-    <div id="mainslider" class="flexslider">
-        <ul class="slides">
-            <li>
-                <img src="{{ ASSET_PATH }}/example/slider3.jpg" alt="photo" />
-                <h3><span>Office design and corporate style</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit.Aliquam varius sapien porttitor</a></h3>
-            </li>
-            <li>
-                <img src="{{ ASSET_PATH }}/example/slider2.jpg" alt="photo" />
-                <h3><span>Private appartment interior</span><a href="#">Great design and the best ideas Dolor sit amet, consectetur adipiscing elit. Aliquam varius sapien porttitor dui lobortis</a></h3>
-            </li>
-            <li>
-                <img src="{{ ASSET_PATH }}/example/slider1.jpg" alt="photo" />
-                <h3><span>Shops and boutiques design</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit</a></h3>
-            </li>
-        </ul>
-    </div>
-</section>
+{% if page.url == '/index.html' %}
+{% include themes/construct/masthead %}
+{% endif %}
 
 <section id="container">
 <div class="container">
@@ -133,7 +118,7 @@
             <div class="span8 hidden-phone">
                 <ul>
                     <li><a href="{{ BASE_PATH }}/">首頁</a></li>
-                    <li><a href="#">關於雅舍</a></li>
+                    <li><a href="{{ BASE_PATH }}/about.html">關於雅舍</a></li>
                     <li><a href="#">服務項目</a></li>
                     <li><a href="#">作品集</a></li>
                     <li><a href="#">部落格</a></li>
