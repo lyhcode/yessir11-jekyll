@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "聯絡方式"
+tagline: "Contact"
 description: ""
 group: navigation
-weight: 5
+weight: 10
 ---
 {% include JB/setup %}
 
