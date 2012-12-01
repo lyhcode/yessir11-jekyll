@@ -3,15 +3,15 @@
         <ul class="slides">
             <li>
                 <img src="{{ ASSET_PATH }}/example/slider3.jpg" alt="photo" />
-                <h3><span>Office design and corporate style</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit.Aliquam varius sapien porttitor</a></h3>
+                <h3><span>雅舍系統櫥櫃生活館</span><a href="#">雅舍使用的板材獲得各國多項認證，包括 E0 及 E1 等級無醛害環保板材，不僅愛地球，更為您守護全家人的健康。</a></h3>
             </li>
             <li>
                 <img src="{{ ASSET_PATH }}/example/slider2.jpg" alt="photo" />
-                <h3><span>Private appartment interior</span><a href="#">Great design and the best ideas Dolor sit amet, consectetur adipiscing elit. Aliquam varius sapien porttitor dui lobortis</a></h3>
+                <h3><span>規劃一個舒適的居家環境</span><a href="#">雅舍注重所有施工細節，不僅設計能夠完全符合您的空間規劃需求，更為您挑選品質最好的五金飾件。</a></h3>
             </li>
             <li>
                 <img src="{{ ASSET_PATH }}/example/slider1.jpg" alt="photo" />
-                <h3><span>Shops and boutiques design</span><a href="#">Great design and the best ideas. Dolor sit amet, consectetur adipiscing elit</a></h3>
+                <h3><span>打造完美收納空間</span><a href="#">使用系統家具整體規劃，讓每吋居家空間都能充分利用，依照個人喜好量身訂做，完美呈現獨特風格品味。</a></h3>
             </li>
         </ul>
     </div>
